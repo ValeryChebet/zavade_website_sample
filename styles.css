@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-arrow-up-right-from-square,
+.fa-phone-alt {
+    color: #de0223;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.TopBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 30px;
+}
+
+.ZavadeIg {
+    display: inline;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.description {
+    display: block;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 60px;
+    margin: 10px;
+    line-height: 1px;
+}
+
+.details {
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.shop {
+    display: flex;
+    border-radius: 50px;
+    background-color: #de0223;
+    width: 223px;
+    height: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 200px;
+}
