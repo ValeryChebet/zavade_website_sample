@@ -68,15 +68,14 @@ body {
 
 .cards {
     display: flex;
-    font-size: 16px;
-    justify-content: flex-start;
+    font-size: 14px;
     flex-grow: 1;
     flex-wrap: wrap;
 }
 
 .container {
-    width: 188px;
-    height: 330px;
+    width: 230px;
+    height: 360px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     background-color: rgb(248, 240, 239);
     align-items: center;
@@ -90,7 +89,7 @@ body {
     width: 164px;
     height: 250px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 25px;
 }
 
 .fa-solid {
@@ -108,6 +107,11 @@ body {
 
 .amount {
     font-weight: bold;
+}
+.cardspage{
+    background-color: #FAE6E9;
+    width: 100%;
+    height: 1440px;
 }
 .productsnav{
     display: flex;
