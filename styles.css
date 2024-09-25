@@ -108,12 +108,14 @@ body {
 .amount {
     font-weight: bold;
 }
-.cardspage{
+
+.cardspage {
     background-color: #FAE6E9;
     width: 100%;
     height: 1440px;
 }
-.productsnav{
+
+.productsnav {
     display: flex;
     background-color: #de0223;
     width: 100%;
@@ -122,12 +124,14 @@ body {
     justify-content: space-between;
     font-size: 20px;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
     padding-left: 20px;
 }
-.searchtext{
+
+.searchtext {
     background-color: aliceblue;
     width: 340px;
     height: 40px;
@@ -141,12 +145,14 @@ body {
     font-weight: lighter;
     color: rgb(80, 79, 79);
 }
-.navdiv{
+
+.navdiv {
     height: 40px;
     display: flex;
     padding: 20px;
 }
-.activenav{
+
+.activenav {
     display: flex;
     background-color: aliceblue;
     width: 96px;
@@ -157,12 +163,18 @@ body {
     align-items: center;
     margin-right: 10px;
 }
-.othernavs{
+
+.othernavs {
     color: aliceblue;
     display: flex;
     border-radius: 50px;
 }
-.framed, .mounted, .a3, .design, .wallart{
+
+.framed,
+.mounted,
+.a3,
+.design,
+.wallart {
     display: flex;
     background-color: transparent;
     border: 1px solid white;
@@ -173,18 +185,78 @@ body {
     align-items: center;
     margin-right: 10px;
 }
-.framed{
+
+.framed {
     width: 144px;
 }
-.mounted{
+
+.mounted {
     width: 150px;
 }
-.a3{
+
+.a3 {
     width: 70px;
 }
-.design{
+
+.design {
     width: 144px;
 }
-.wallart{
+
+.wallart {
     width: 144px;
+}
+
+.aboutus {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutustext {
+    font-size: 60px;
+}
+
+.aboutusdescription {
+    background-color: #de0223;
+    width: 1430px;
+    height: 300px;
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.aboutuscards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 100px;
+}
+
+.customerscard,
+.customscard,
+.spacescard,
+.customescard {
+    background-color: #FAE6E9;
+    width: 280px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    font-size: 28px;
+    line-height: 1px;
+}
+.count{
+    font-size: 40px;
+    font-weight: bold;
 }
