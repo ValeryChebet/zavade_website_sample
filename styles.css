@@ -335,3 +335,8 @@ footer {
     margin-bottom: 10px;
 
 }
+/*Links*/
+a{
+    color: #de0223;
+    text-decoration: none;
+}
